@@ -1,0 +1,6 @@
+react_markdown_wasm.d.ts
+react_markdown_wasm.js
+react_markdown_wasm_bg.wasm
+node_modules/
+target/
+dist/

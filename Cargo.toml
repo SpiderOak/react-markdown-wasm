@@ -1,0 +1,13 @@
+[package]
+name = "react-markdown-wasm"
+version = "1.0.0"
+authors = ["Chip Black <chip@spideroak-inc.com>", "Jonathan Moore <jmoore@spideroak-inc.com>"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pulldown-cmark = { version = "0.1.2", default-features = false }
+react-wasm-bridge = { git = "https://github.com/SpiderOak/react-wasm-bridge" }
+wasm-bindgen = "0.2"
