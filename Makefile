@@ -23,7 +23,7 @@ yarn.lock:
 	yarn
 
 react_markdown_wasm.js: src/*.rs
-	cargo +nightly build $(CARGO_BUILD_FLAGS) --target wasm32-unknown-unknown
+	cargo build $(CARGO_BUILD_FLAGS) --target wasm32-unknown-unknown
 	wasm-bindgen target/wasm32-unknown-unknown/$(MODE)/react_markdown_wasm.wasm --out-dir .
 
 .PHONY: clean
