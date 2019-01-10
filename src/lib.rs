@@ -1,7 +1,3 @@
-extern crate wasm_bindgen;
-extern crate react_wasm_bridge;
-extern crate pulldown_cmark;
-
 use pulldown_cmark::Parser;
 use pulldown_cmark::Event;
 use pulldown_cmark::Tag;
