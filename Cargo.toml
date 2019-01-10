@@ -2,6 +2,7 @@
 name = "react-markdown-wasm"
 version = "1.0.0"
 authors = ["Chip Black <chip@spideroak-inc.com>", "Jonathan Moore <jmoore@spideroak-inc.com>"]
+edition = "2018"
 publish = false
 
 [lib]

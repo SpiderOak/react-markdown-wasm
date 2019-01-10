@@ -1,5 +1,3 @@
-#![feature(use_extern_macros)]
-
 extern crate wasm_bindgen;
 extern crate react_wasm_bridge;
 extern crate pulldown_cmark;
